@@ -1,11 +1,11 @@
-const Gender = require('../models/Gender');
+const Gender = require("../models/Gender");
 
 const GenderController = {
-    async listar(req,res){
-        const genders = await Gender.findAll();
+  async listar(req, res) {
+    const genders = await Gender.findAll();
 
-        res.json(genders);
-    },
+    res.json(genders);
+  },
 };
 
 module.exports = GenderController;
