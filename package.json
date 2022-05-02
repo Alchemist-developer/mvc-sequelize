@@ -9,15 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinnydeveloper/api-din-din-admin.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vinnydeveloper/api-din-din-admin/issues"
-  },
-  "homepage": "https://github.com/vinnydeveloper/api-din-din-admin#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3",
